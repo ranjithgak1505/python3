@@ -1,0 +1,10 @@
+from collections import namedtuple
+student1=namedtuple('student',['name','age','dob'])
+s=student1('ranjith','12','0134')
+print(s)
+print("the student ags is:",end="")
+print(s[1])
+print("the student name is:",end="")
+print(s.name)
+print("the student dob is:",end="")
+print(s.dob)
